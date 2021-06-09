@@ -1,0 +1,29 @@
+{
+  "name": "smart-typescript-support",
+  "version": "0.0.1",
+  "description": "Typescript support for CDS Hooks and SMART",
+  "author": "Brian Kaney <https://github.com/bkaney>",
+  "license": "ISC",
+  "types": "index.d.ts",
+  "keywords": [
+    "FHIR",
+    "SMART",
+    "CDS Hooks",
+    "HL7"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vermonster/smart-typescript-support"
+  },
+  "files": [
+    "index.d.ts",
+    "types/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
