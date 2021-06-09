@@ -1,6 +1,6 @@
 {
   "name": "smart-typescript-support",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Typescript support for CDS Hooks and SMART",
   "author": "Brian Kaney <https://github.com/bkaney>",
   "license": "ISC",

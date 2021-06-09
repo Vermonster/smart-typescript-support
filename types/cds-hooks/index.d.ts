@@ -1,5 +1,5 @@
 export as namespace CDSHooks
-  
+
 export interface Coding {
   system?: string
   version?: string
@@ -249,7 +249,7 @@ export interface SystemAction {
    * of this field to communicate a string of a FHIR id for delete suggestions
    * is DEPRECATED and resourceId SHOULD be used instead.
    */
-  resource?: unknown
+  resource?: any
 
   /**
    * A relative reference to the relevant resource. SHOULD be provided when the
@@ -336,12 +336,12 @@ export interface HookRequestBasic {
    * with the patient-view hook this will include the FHIR identifier of the
    * Patient being viewed. For details, see the Hooks specification page.
    */
-  context: unknown
+  context: any
 
   /**
    * The FHIR data that was prefetched by the CDS Client
    */
-  prefetch: unknown
+  prefetch: Record<string, any>
 }
 
 type HookRequest = HookRequestBasic | HookRequestWithFhir
