@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/fhir-kit-client.svg)](https://badge.fury.io/js/smart-typescript-support)
+
 # Typescript support for CDS Hooks and SMART
 
 This provides types for CDS Hooks and SMART Launch Context.
