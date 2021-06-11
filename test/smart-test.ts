@@ -1,8 +1,8 @@
-const simple: SMART.LaunchContext = {
+const simple: SMART.AccessTokenResponse = {
   access_token: "secret-xyz"
 }
 
-const exhaustive: SMART.LaunchContext = {
+const exhaustive: SMART.AccessTokenResponse = {
   access_token: "secret-xyz",
   patient: "123",
   encounter: "123",

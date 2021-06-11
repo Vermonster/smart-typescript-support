@@ -1,6 +1,6 @@
 export as namespace SMART
-  
-export interface LaunchContext {
+
+export interface AccessTokenResponse {
   /**
    * token response
    */
